@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SHIVALIK</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/nivo-lightbox.css">
+  <link rel="stylesheet" href="css/nivo_themes/default/default.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+  <style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+
+    .sidenav {
+      height: 60%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #FFA07A;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: black;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: red;
+
+    }
+
+    .hover-menu-underline-menu {
+      width: 100%;
+    }
+
+    .hover-underline-menu .menu {
+      height: 50%;
+      background-color: grey;
+    }
+
+    .hover-underline-menu .menu a:hover {
+      color: white;
+
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- preloader section -->
+  <section class="preloader">
+    <div class="sk-spinner sk-spinner-pulse"></div>
+  </section>
+
+  <!-- navigation section -->
+  <section class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">SHIVALIK</a>
+        <!-- slider section 
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <nav class="hover-underline-menu" data-menu-underline-from-center>
+            <ul class="menu align-center">
+              <a href="#">About</a>
+              <a href="registration.html">Profile</a>
+              <a href="#">Setting</a>
+              <a href="#">Help</a>
+              <a href="#contact" class="smoothScroll">Contact Us</a>
+            </ul>
+          </nav>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+        <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+        </script> -->
+      </div>
+      <!-- navigation section -->
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home" class="smoothScroll">HOME</a></li>
+          <li><a href="#gallery" class="smoothScroll">FOOD GALLERY</a></li>
+         <!-- <li><a href="gallery.html" target="_blank">MENU</a></li>  -->
+          <li><a href="#menu" class="smoothScroll">SPECIAL MENU</a></li>
+          <li><a href="#team" class="smoothScroll">CHEIF'S</a></li>
+          <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- home section -->
+  <section id="home" class="parallax-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h1>THE SHIVALIK RESTAURANT</h1>
+          <h2>CLEAN &amp; SIMPLE DESIGN</h2>
+          <a href="https://shivalikgroup.com/home" target="_blank" class="smoothScroll btn btn-default">LEARN MORE</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- gallery section -->
+  <section id="gallery" class="parallax-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
+          <h1 class="heading">Food Gallery</h1>
+          <hr>
+        </div>
+        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+          <a href="images/butter.png" data-lightbox-gallery="zenda-gallery"><img src="images/butter.png"
+              alt="gallery img"></a>
+          <div>
+            <h3>BUTTER-CHICKEN</h3>
+            <span>Kadhai-chicken / Fried-chicken</span>
+          </div>
+          <a href="images/lemon.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/lemon.jpg"
+              alt="gallery img"></a>
+          <div>
+            <h3>lemon-Tea</h3>
+            <span>Tomato-soup / vegetable-soup</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+          <a href="images/gallery-img3.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img3.jpg"
+              alt="gallery img"></a>
+          <div>
+            <h3>Continental</h3>
+            <span>Coconut-rice&Quinoa / fragrant-Thai-vegetable-curry</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
+          <a href="images/gallery-img4.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img4.jpg"
+              alt="gallery img"></a>
+          <div>
+            <h3>Vegetable-Salad</h3>
+            <span>Vegetable-salad / chicken-Salad</span>
+          </div>
+          <a href="images/gallery-img5.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img5.jpg"
+              alt="gallery img"></a>
+          <div>
+            <h3>Pizza</h3>
+            <span>Farm-Pizza / Pasta / Maggi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- menu section -->
+  <section id="menu" class="parallax-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
+          <h1 class="heading">Special Menu</h1>
+          <hr>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <h4>Vegetable-Salad .................... <span>₹120.50</span></h4>
+          <h5>Vegetable-salad / Chicken-salad</h5>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <h4>BUTTER_CHICKEN ............................... <span>₹350.75</span></h4>
+          <h5>Kadhai-Chicken / Fried-chicken</h5>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <h4>Veg-Conteninal............................<span>₹265.00</span></h4>
+          <h5>Coconut-Rice&Quinoa-Salad / Fragrant Thai Vegetable curry</h5>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <h4>Non-veg Continental.......................... <span>₹550.00</span></h4>
+          <h5>Batter-Fish / Chicken&cheese-Salad</h5>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <h4>Chinese.......................... <span>₹255.00</span></h4>
+          <h5>Momo's / Chicken-fried-Rice</h5>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <h4>Pizza......................... <span>₹230.00</span></h4>
+          <h5>Farm-Pizza / Pasta / Maggi</h5>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <h4>Lemon-Tea............................... <span>₹95.75</span></h4>
+          <h5>Tomato-Soup / Vegetable-Soup</h5>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <h4>Dinks........................ <span>₹90.50</span></h4>
+          <h5>Orange-Juice/ Mango-Sake/ Black-Current</h5>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- team section -->
+  <section id="team" class="parallax-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
+          <h1 class="heading">Meet SHIVALIK cheifs</h1>
+          <hr>
+        </div>
+        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+          <img src="images/ch1.jpg" class="img-responsive center-block" alt="team img">
+          <h4>Sanjeev kapoor</h4>
+          <h3>Main Chef</h3>
+        </div>
+        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+          <img src="images/ch2.jpg" class="img-responsive center-block" alt="team img">
+          <h4>Vikas khanna</h4>
+          <h3>CONTINENTAL</h3>
+        </div>
+        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
+          <img src="images/ch3.png" class="img-responsive center-block" alt="team img">
+          <h4>Kunal Kapur</h4>
+          <h3>Baker</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- contact section -->
+  <section id="contact" class="parallax-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-1 col-md-10 col-sm-12 text-center">
+          <h1 class="heading">Contact Us</h1>
+          <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 ">
+            <a href="form.html" target="_blank"><input name="submit" type="submit" class="form-control" id="submit"
+                value="Make a Reservation">
+
+          </div>
+          </form>
+        </div>
+        <div class="col-md-2 col-sm-1"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer section -->
+  <footer class="parallax-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+          <h2 class="heading">Contact Info.</h2>
+          <div class="ph">
+            <p><i class="fa fa-phone"></i> Phone</p>
+            <h4>+91-7985348757</h4>
+          </div>
+          <div class="address">
+            <p><i class="fa fa-map-marker"></i> Our Location</p>
+            <h4>Rampur Road Beside Hotel Vansh Regency Haldwani</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+          <h2 class="heading">Open Hours</h2>
+          <p>Sunday <span>10:30 AM - 11:00 PM</span></p>
+          <p>Mon-Fri <span>9:00 AM - 10:00 PM</span></p>
+          <p>Saturday <span>10:30 AM - 10:00 PM</span></p>
+        </div>
+        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+          <h2 class="heading">Follow Us</h2>
+          <ul class="social-icon">
+            <li><a href="http://www.facebook.com" target="_blank" class="fa fa-facebook wow bounceIn"
+                data-wow-delay="0.3s"></a></li>
+            <li><a href="http://www.twitter.com" target="_blank" class="fa fa-twitter wow bounceIn"
+                data-wow-delay="0.6s"></a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- copyright section -->
+  <section id="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h3>SHIVALIK</h3>
+          <p>Copyright © SHIVALIK Restaurant and Cafe
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JAVASCRIPT JS FILES -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.parallax.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/nivo-lightbox.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
